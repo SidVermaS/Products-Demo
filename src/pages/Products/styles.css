@@ -1,0 +1,19 @@
+.table,
+.td,
+th {
+  border: 1px solid #000;
+}
+.thumbnail {
+  width: 100px;
+  height: 100px;
+}
+.title {
+  max-width: 100px;
+}
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
